@@ -20,7 +20,7 @@ code {
   box-shadow: rgb(145 158 171 / 30%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px !important;
   border-style: none;
 }
-.css-1ld3b9g-MuiGrid-root>.MuiGrid-item{padding-left: 100px !important;padding-top: 100px !important;}
+.css-1ld3b9g-MuiGrid-root>.MuiGrid-item{padding-left: 100px !important;padding-top: 80px !important;}
 .css-mhc70k-MuiGrid-root>.MuiGrid-item{padding-top: 15px !important;}
-.MuiBox-root .w-64{width: 100%}
-.css-mhc70k-MuiGrid-root>.MuiGrid-item.css-1o7apob-MuiGrid-root{padding-top: 0px !important;}
+.MuiGrid-root .w-64{width: 100% !important}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item.css-9zsmqt-MuiGrid-root{padding-top: 0px !important;}

@@ -1,17 +1,5 @@
 import { Table } from "flowbite-react";
-
-const dummyData = [
-  { productName: "Apple MacBook Pro 17\"", color: "Silver", category: "Laptop", price: "$2999" },
-  { productName: "Microsoft Surface Pro", color: "White", category: "Laptop PC", price: "$1999" },
-  { productName: "Magic Mouse 2", color: "Black", category: "Accessories", price: "$99" },
-  { productName: "iPhone 12", color: "Black", category: "Mobile", price: "$999" },
-  { productName: "Apple Watch Series 6", color: "Gold", category: "Wearable", price: "$399" },
-  { productName: "AirPods Pro", color: "White", category: "Accessories", price: "$249" },
-  { productName: "iPad Pro 11", color: "Space Gray", category: "Tablet", price: "$799" },
-  { productName: "HP Spectre x360", color: "Silver", category: "Laptop", price: "$1399" },
-  { productName: "Lenovo ThinkPad X1", color: "Black", category: "Laptop", price: "$1700" },
-  { productName: "Samsung Galaxy S21", color: "Phantom Gray", category: "Mobile", price: "$799" }
-];
+import { TableData } from "../data/dummyData";
 
 export function TableComponent() {
   return (
@@ -27,7 +15,7 @@ export function TableComponent() {
           </Table.HeadCell>
         </Table.Head>
         <Table.Body className="divide-y">
-          {dummyData.map((item, index) => (
+          {TableData.map((item, index) => (
             <Table.Row
               key={index}
               className="bg-white dark:border-gray-700 dark:bg-gray-800"
